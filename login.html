@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Login CashCrush</title>
     <link rel="stylesheet" href="./main.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -49,11 +49,9 @@
     <main class="main-c">
       <div class="container">
         <h3>Faça seu login</h3>
-        <form>
+        <form action="/dashboard.html">
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"
-              >Email</label
-            >
+            <label for="exampleInputEmail1" class="form-label">Email</label>
             <input
               type="email"
               class="form-control"
@@ -62,9 +60,7 @@
             />
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label"
-              >Senha</label
-            >
+            <label for="exampleInputPassword1" class="form-label">Senha</label>
             <input
               type="password"
               class="form-control"
@@ -93,5 +89,13 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+
+      function reidirec () {
+         Window.location.href('/dashboard.html')
+      }
+     
+    </script>
   </body>
 </html>
